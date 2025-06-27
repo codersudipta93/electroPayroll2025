@@ -1,0 +1,7 @@
+export {default as commonReducer} from './CommonReducer'
+export {default as attendanceReducer} from './AttendanceReducer'
+export {default as leaveReducer} from './LeaveReducer'
+export {default as payslipReducer} from './PayslipReducer'
+export {default as expenseReducer} from './ExpenseReducer'
+export {default as assetsReducer} from './AssetsReducer'
+export {default as loanReducer} from './LoanReducer'

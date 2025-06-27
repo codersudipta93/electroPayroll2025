@@ -9,27 +9,52 @@
 /* Begin PBXBuildFile section */
 		0C80B921A6F3F58F76C31292 /* libPods-ElectroPayroll.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ElectroPayroll.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		4E363A402DDEFA490012D6D2 /* OutfitBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A372DDEFA480012D6D2 /* OutfitBold.ttf */; };
+		4E363A412DDEFA490012D6D2 /* OutfitMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A382DDEFA480012D6D2 /* OutfitMedium.ttf */; };
+		4E363A422DDEFA490012D6D2 /* OutfitRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A392DDEFA480012D6D2 /* OutfitRegular.ttf */; };
+		4E363A432DDEFA490012D6D2 /* OutfitSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A3A2DDEFA480012D6D2 /* OutfitSemiBold.ttf */; };
+		4E363A442DDEFA490012D6D2 /* WorkSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A3B2DDEFA480012D6D2 /* WorkSans-Bold.ttf */; };
+		4E363A452DDEFA490012D6D2 /* WorkSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A3C2DDEFA480012D6D2 /* WorkSans-Medium.ttf */; };
+		4E363A462DDEFA490012D6D2 /* WorkSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A3D2DDEFA480012D6D2 /* WorkSans-Regular.ttf */; };
+		4E363A472DDEFA490012D6D2 /* WorkSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4E363A3E2DDEFA480012D6D2 /* WorkSans-SemiBold.ttf */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		BA5C28D94557D6830B893D25 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ElectroPayroll;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* ElectroPayroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElectroPayroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ElectroPayroll/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ElectroPayroll/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = ElectroPayroll/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-ElectroPayroll.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroPayroll.debug.xcconfig"; path = "Target Support Files/Pods-ElectroPayroll/Pods-ElectroPayroll.debug.xcconfig"; sourceTree = "<group>"; };
+		4E363A102DDC605B0012D6D2 /* AntDesign.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AntDesign.ttf; sourceTree = "<group>"; };
+		4E363A112DDC605B0012D6D2 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		4E363A122DDC605B0012D6D2 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		4E363A132DDC605B0012D6D2 /* Feather.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feather.ttf; sourceTree = "<group>"; };
+		4E363A142DDC605B0012D6D2 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		4E363A152DDC605B0012D6D2 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Brands.ttf; sourceTree = "<group>"; };
+		4E363A162DDC605B0012D6D2 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Regular.ttf; sourceTree = "<group>"; };
+		4E363A172DDC605B0012D6D2 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome5_Solid.ttf; sourceTree = "<group>"; };
+		4E363A182DDC605B0012D6D2 /* FontAwesome6_Brands.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Brands.ttf; sourceTree = "<group>"; };
+		4E363A192DDC605B0012D6D2 /* FontAwesome6_Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Regular.ttf; sourceTree = "<group>"; };
+		4E363A1A2DDC605B0012D6D2 /* FontAwesome6_Solid.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome6_Solid.ttf; sourceTree = "<group>"; };
+		4E363A1B2DDC605B0012D6D2 /* Fontisto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fontisto.ttf; sourceTree = "<group>"; };
+		4E363A1C2DDC605B0012D6D2 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		4E363A1D2DDC605B0012D6D2 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		4E363A1E2DDC605B0012D6D2 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		4E363A1F2DDC605B0012D6D2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		4E363A202DDC605B0012D6D2 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		4E363A212DDC605B0012D6D2 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		4E363A222DDC605B0012D6D2 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
+		4E363A372DDEFA480012D6D2 /* OutfitBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OutfitBold.ttf; sourceTree = "<group>"; };
+		4E363A382DDEFA480012D6D2 /* OutfitMedium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OutfitMedium.ttf; sourceTree = "<group>"; };
+		4E363A392DDEFA480012D6D2 /* OutfitRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OutfitRegular.ttf; sourceTree = "<group>"; };
+		4E363A3A2DDEFA480012D6D2 /* OutfitSemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OutfitSemiBold.ttf; sourceTree = "<group>"; };
+		4E363A3B2DDEFA480012D6D2 /* WorkSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Bold.ttf"; sourceTree = "<group>"; };
+		4E363A3C2DDEFA480012D6D2 /* WorkSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Medium.ttf"; sourceTree = "<group>"; };
+		4E363A3D2DDEFA480012D6D2 /* WorkSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Regular.ttf"; sourceTree = "<group>"; };
+		4E363A3E2DDEFA480012D6D2 /* WorkSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-SemiBold.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-ElectroPayroll.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectroPayroll.release.xcconfig"; path = "Target Support Files/Pods-ElectroPayroll/Pods-ElectroPayroll.release.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-ElectroPayroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ElectroPayroll.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ElectroPayroll/AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,14 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356F01AD99517003FC87E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				00E356F11AD99517003FC87E /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		13B07FAE1A68108700A75B9A /* ElectroPayroll */ = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +95,48 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4E363A232DDC605B0012D6D2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4E363A102DDC605B0012D6D2 /* AntDesign.ttf */,
+				4E363A112DDC605B0012D6D2 /* Entypo.ttf */,
+				4E363A122DDC605B0012D6D2 /* EvilIcons.ttf */,
+				4E363A132DDC605B0012D6D2 /* Feather.ttf */,
+				4E363A142DDC605B0012D6D2 /* FontAwesome.ttf */,
+				4E363A152DDC605B0012D6D2 /* FontAwesome5_Brands.ttf */,
+				4E363A162DDC605B0012D6D2 /* FontAwesome5_Regular.ttf */,
+				4E363A172DDC605B0012D6D2 /* FontAwesome5_Solid.ttf */,
+				4E363A182DDC605B0012D6D2 /* FontAwesome6_Brands.ttf */,
+				4E363A192DDC605B0012D6D2 /* FontAwesome6_Regular.ttf */,
+				4E363A1A2DDC605B0012D6D2 /* FontAwesome6_Solid.ttf */,
+				4E363A1B2DDC605B0012D6D2 /* Fontisto.ttf */,
+				4E363A1C2DDC605B0012D6D2 /* Foundation.ttf */,
+				4E363A1D2DDC605B0012D6D2 /* Ionicons.ttf */,
+				4E363A1E2DDC605B0012D6D2 /* MaterialCommunityIcons.ttf */,
+				4E363A1F2DDC605B0012D6D2 /* MaterialIcons.ttf */,
+				4E363A202DDC605B0012D6D2 /* Octicons.ttf */,
+				4E363A212DDC605B0012D6D2 /* SimpleLineIcons.ttf */,
+				4E363A222DDC605B0012D6D2 /* Zocial.ttf */,
+			);
+			name = Fonts;
+			path = "../node_modules/react-native-vector-icons/Fonts";
+			sourceTree = "<group>";
+		};
+		4E363A3F2DDEFA480012D6D2 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4E363A372DDEFA480012D6D2 /* OutfitBold.ttf */,
+				4E363A382DDEFA480012D6D2 /* OutfitMedium.ttf */,
+				4E363A392DDEFA480012D6D2 /* OutfitRegular.ttf */,
+				4E363A3A2DDEFA480012D6D2 /* OutfitSemiBold.ttf */,
+				4E363A3B2DDEFA480012D6D2 /* WorkSans-Bold.ttf */,
+				4E363A3C2DDEFA480012D6D2 /* WorkSans-Medium.ttf */,
+				4E363A3D2DDEFA480012D6D2 /* WorkSans-Regular.ttf */,
+				4E363A3E2DDEFA480012D6D2 /* WorkSans-SemiBold.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +147,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				4E363A3F2DDEFA480012D6D2 /* fonts */,
+				4E363A232DDC605B0012D6D2 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* ElectroPayroll */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
@@ -172,19 +233,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00E356EC1AD99517003FC87E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		13B07F8E1A680F5B00A75B9A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E363A422DDEFA490012D6D2 /* OutfitRegular.ttf in Resources */,
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				4E363A442DDEFA490012D6D2 /* WorkSans-Bold.ttf in Resources */,
+				4E363A402DDEFA490012D6D2 /* OutfitBold.ttf in Resources */,
+				4E363A432DDEFA490012D6D2 /* OutfitSemiBold.ttf in Resources */,
+				4E363A412DDEFA490012D6D2 /* OutfitMedium.ttf in Resources */,
+				4E363A452DDEFA490012D6D2 /* WorkSans-Medium.ttf in Resources */,
+				BA5C28D94557D6830B893D25 /* PrivacyInfo.xcprivacy in Resources */,
+				4E363A462DDEFA490012D6D2 /* WorkSans-Regular.ttf in Resources */,
+				4E363A472DDEFA490012D6D2 /* WorkSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,14 +339,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ElectroPayroll */;
-			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -292,8 +347,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WN526SG9D5;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ElectroPayroll/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,7 +362,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.ep.electropayroll";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ep.electropayroll;
 				PRODUCT_NAME = ElectroPayroll;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -319,8 +376,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ElectroPayroll/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -332,8 +392,9 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "io.ep.electropayroll";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ep.electropayroll;
 				PRODUCT_NAME = ElectroPayroll;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -408,7 +469,11 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -473,7 +538,10 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
