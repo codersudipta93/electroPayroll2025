@@ -292,9 +292,6 @@ const Dashboard = props => {
               </View>
             </View>
 
-       
-
-
             <View style={{ justifyContent: 'center', alignItems: 'center', alignSelf: 'center', width: '100%' }}>
               <FlatList
                 data={moduleData.filter(module => module.IsActive)}

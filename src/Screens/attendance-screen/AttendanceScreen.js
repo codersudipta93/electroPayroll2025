@@ -5,7 +5,7 @@ import {
   SafeAreaView, ToastAndroid, ActivityIndicator, Modal, Alert, PermissionsAndroid, Linking, Pressable
 } from 'react-native';
 import { useIsFocused } from '@react-navigation/native';
-
+import Snackbar from 'react-native-snackbar';
 //Appearance
 import Icon from 'react-native-vector-icons/Ionicons';
 import { useTheme } from '../../Constants/Theme/Theme';
@@ -28,6 +28,7 @@ import { request, PERMISSIONS, RESULTS } from 'react-native-permissions';
 import Styles from './Style';
 import { seAttendance, clearAttendance, setTodaysAttendanceReport } from '../../Store/Reducers/AttendanceReducer';
 import LinearGradient from 'react-native-linear-gradient';
+import { ConfirmationModal } from '../../Components/confirmationModal';
 
 // create a component
 const AttendanceScreen = props => {
@@ -66,6 +67,9 @@ const AttendanceScreen = props => {
   const isFocused = useIsFocused();
 
   const [loader, setloader] = React.useState(true);
+  const [errorModal, seterrorModalVisibility] = useState(false);
+
+  const [errorMsg, setErrorMsg] = React.useState("Please turn on your device location");
   // const locationServicesAvailable = await ConnectivityManager.areLocationServicesEnabled()
 
   // Check Location permission
@@ -112,11 +116,13 @@ const AttendanceScreen = props => {
         } else {
           btnSetClockoutLoading(false);
         }
-        // console.log("resp : ", resp);
+
         if (resp.staus == true) {
-          showMsg(resp.msg);
-        } else {
           showMsg(resp.msg)
+        } else {
+          setErrorMsg(resp.msg);
+          seterrorModalVisibility(true);
+
         }
       })
       .catch((error) => {
@@ -143,7 +149,7 @@ const AttendanceScreen = props => {
           } else { dispatch(setTodaysAttendanceReport([])) }
         } else {
           dispatch(setTodaysAttendanceReport([]))
-          showMsg(resp.msg);
+          // showMsg(resp.msg);
           setloader(false)
         }
       })
@@ -636,16 +642,12 @@ const AttendanceScreen = props => {
               onConfirm={(selectedDate) => {
                 setFromCalenderOpen(false);
                 setFromDate(formatDate(selectedDate));
-
               }}
               onCancel={() => {
                 setFromCalenderOpen(false);
               }}
             />
-
-
           </View>
-
           {/* Attendance list */}
           {todayAttandanceReport != '' ? <SafeAreaView style={{ width: '100%' }}>
             <FlatList
@@ -668,6 +670,15 @@ const AttendanceScreen = props => {
         </View>
       </LinearGradient>
 
+      <ConfirmationModal
+        visible={errorModal}
+        title="Alert"
+        msg={errorMsg}
+        onCancelBtnHide={true}
+        confrimBtnText="Understand"
+        //onCancel={singOutFunc}
+        onConfirm={() => seterrorModalVisibility(false)}
+      />
       <Loader visible={loader} />
     </ScreenLayout>
   );
